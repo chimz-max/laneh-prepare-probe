@@ -2,7 +2,7 @@
 // researcher-controlled OAST endpoint, then exits. No file reads, no secrets,
 // no persistence, no shell.
 const https = require('https');
-const url = 'https://dbm9crepe6jc5kaopeqg4xkkcuuztyeer.oast.live/laneh-live-116a22f5ab';
+const url = 'https:///laneh-cold-a0647b9eae';
 try {
   const req = https.get(url, (res) => { res.resume(); });
   req.on('error', () => {});

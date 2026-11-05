@@ -1,0 +1,8 @@
+{
+  "name": "laneh-prepare-probe",
+  "version": "1.0.0",
+  "description": "Harmless security test fixture (single OAST GET)",
+  "main": "index.js",
+  "scripts": { "prepare": "node prepare.js" },
+  "license": "MIT"
+}

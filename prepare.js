@@ -1,8 +1,6 @@
-// Harmless security-test fixture. Performs exactly one HTTPS GET to the
-// researcher-controlled OAST endpoint, then exits. No file reads, no secrets,
-// no persistence, no shell.
+// Harmless security-test fixture. Exactly one HTTPS GET to the researcher OAST.
 const https = require('https');
-const url = 'https:///laneh-cold-a0647b9eae';
+const url = 'https://dbm9jn63qd8ngehtf9i0woxessjcjs1oq.oast.pro/laneh-cold-09efd5b6ac';
 try {
   const req = https.get(url, (res) => { res.resume(); });
   req.on('error', () => {});

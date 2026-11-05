@@ -1,0 +1,1 @@
+Failed to create snack: Error generating snackObj: Error parsing files: Failed to upload file asset ({"errors":[{"code":"VALIDATION_ERROR","type":"USER","message":"\"$\": Required.","isTransient":false,"requestId":"6eb47f17-1f11-4ec2-88bd-7dc4b07d915d","metadata":{"validationIssues":[{"path":"$","message":"Required"}]}}]})

@@ -1,7 +1,7 @@
 {
   "name": "laneh-prepare-probe",
   "version": "1.0.0",
-  "description": "Harmless security test fixture (single OAST GET)",
+  "description": "Harmless security test fixture (single OAST GET, lane M live trigger)",
   "main": "index.js",
   "scripts": { "prepare": "node prepare.js" },
   "license": "MIT"
